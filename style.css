@@ -1,0 +1,76 @@
+body, html{
+    height: 100%;
+}
+body{
+    margin: 0;
+    background-image: url(images/vibe.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+/* styling of navbar */
+nav{
+    display: flex;
+    background-color: #203a43;
+}
+.navbar{
+    display: flex;
+    list-style-type: none;
+    height: inherit;
+    width: 80vw;
+    color: antiquewhite;
+    align-items: center;
+}
+.navbar li{
+    padding: 5px 20px;
+    font-size: 1.4rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+}
+.navbar .brand{
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+.brand img{
+    width: 49px;
+}
+.reception{
+    display: flex;
+    align-items: center;
+    text-align: right;
+}
+.search-bar{
+    display: flex;
+    align-items: center;
+    width: inherit;
+    background-image: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    border-radius: 1rem;
+}
+.search-icon{
+    color:grey
+}
+#search-box{
+    margin: 10px;
+    width: 75%;   
+    background: transparent; 
+    color: white;
+    outline: none;
+}
+.search-bar input{
+    background: transparent;
+    border: 0 solid transparent;
+}
+.search-icon{
+    margin: 8px;
+}
+
+.profilepic{
+    border-radius: 50%;
+    padding: 15px;
+}
